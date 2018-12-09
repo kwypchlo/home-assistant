@@ -43,11 +43,3 @@ fan:
     host: 192.168.1.33
     token: 49daab9dd4c1263eadb9034a41de9f95
     model: zhimi.airpurifier.m1
-    child_lock: true
-    temperature: true
-    humidity: true
-    aqi: true
-    led: true
-    sleep_mode: true
-    average_aqi: true
-    filter_life_remaining: true
