@@ -42,3 +42,4 @@ fan:
   - platform: xiaomi_miio
     host: 192.168.1.33
     token: 49daab9dd4c1263eadb9034a41de9f95
+    model zhimi.airpurifier.m1
