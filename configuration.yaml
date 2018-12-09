@@ -1,0 +1,39 @@
+---
+homeassistant:
+  # Name of the location where Home Assistant is running
+  name: Altowa
+  # Location required to calculate the time the sun rises and sets
+  # latitude: !secret homeassistant_latitude
+  # longitude: !secret homeassistant_longitude
+  # Impacts weather/sunrise data (altitude above sea level in meters)
+  # elevation: !secret homeassistant_elevation
+  # metric for Metric, imperial for Imperial
+  unit_system: metric
+  # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  time_zone: Europe/Warsaw
+  # Customization #
+  # customize: !include_dir_merge_named customizations/entities
+  # Lets me custimize all entities in a domain
+  # customize_domain: !include_dir_merge_named customizations/domains
+  # Packages #
+  # packages: !include_dir_named components/packages
+  # Whitelist #
+  # whitelist_external_dirs: !secret whitelist_dir_config
+
+# Enables configuration UI
+config:
+
+websocket_api:
+
+logger:
+  default: info
+
+python_script:
+
+homekit:
+
+panel_iframe:
+  configurator:
+    title: Configurator
+    icon: mdi:wrench
+    url: http://hassio.local:3218
